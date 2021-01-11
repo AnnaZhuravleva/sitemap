@@ -1,485 +1,474 @@
-graph G {
-	graph [size=8];
-	node [fontcolor=black];
-	"" -- html	[minlen=1];
-	html -- "Stack Overflow - Where Developers Learn, Share, & Build Careers";
-	_1155	[fontcolor=white];
-	"Stack Overflow - Where Developers Learn, Share, & Build Careers" -- _1155;
-	_1156	[fontcolor=white];
-	_1155 -- _1156;
-	_1167	[fontcolor=white];
-	_1155 -- _1167;
-	_1209	[fontcolor=white];
-	_1155 -- _1209;
-	_1155 -- "Stack Overflow works best with JavaScript enabled"	[minlen=1];
-	_1156 -- "Stack Overflow";
-	_1157	[fontcolor=white];
-	_1156 -- _1157;
-	_1158	[fontcolor=white];
-	_1156 -- _1158;
-	_1156 -- Loading…	[minlen=1];
-	_1159	[fontcolor=white];
-	_1156 -- _1159;
-	_1157 -- About;
-	_1157 -- Products;
-	_1157 -- "For Teams"	[minlen=1];
-	_1158 -- "Stack Overflow";
-	_1158 -- "Stack Overflow for Teams"	[minlen=1];
-	_1158 -- Jobs;
-	_1158 -- Talent;
-	_1158 -- Advertising;
-	_1158 -- "About the company"	[minlen=2];
-	_1160	[fontcolor=white];
-	_1159 -- _1160;
-	_1161	[fontcolor=white];
-	_1159 -- _1161;
-	_1160 -- "Log in"	[minlen=1];
-	_1160 -- "Sign up";
-	_1161 -- "current community"	[minlen=1];
-	_1162	[fontcolor=white];
-	_1161 -- _1162;
-	_1161 -- "your communities"	[minlen=2];
-	_1165	[fontcolor=white];
-	_1161 -- _1165;
-	_1166	[fontcolor=white];
-	_1161 -- _1166;
-	_1163	[fontcolor=white];
-	_1162 -- _1163;
-	_1162 -- "Meta Stack Overflow"	[minlen=1];
-	_1163 -- "Stack Overflow";
-	_1164	[fontcolor=white];
-	_1163 -- _1164;
-	_1164 -- help	[minlen=1];
-	_1164 -- chat	[minlen=2];
-	_1165 -- "Sign up";
-	_1165 -- or	[minlen=1];
-	_1165 -- "log in"	[minlen=2];
-	_1165 -- "to customize your list."	[minlen=3];
-	_1166 -- "more stack exchange communities"	[minlen=1];
-	_1166 -- "company blog"	[minlen=2];
-	_1168	[fontcolor=white];
-	_1167 -- _1168;
-	_1172	[fontcolor=white];
-	_1167 -- _1172;
-	_1169	[fontcolor=white];
-	_1168 -- _1169;
-	_1171	[fontcolor=white];
-	_1168 -- _1171;
-	_1169 -- Home	[minlen=1];
-	_1169 -- Public;
-	_1170	[fontcolor=white];
-	_1169 -- _1170;
-	Public -- "Stack Overflow";
-	Public -- Jobs;
-	Public -- Tags	[minlen=1];
-	Public -- Users	[minlen=2];
-	Public -- "Find a Job"	[minlen=3];
-	Public -- Companies	[minlen=4];
-	_1170 -- Teams;
-	_1170 -- "Free 30 Day Trial"	[minlen=1];
-	Teams -- "What’s this?"	[minlen=1];
-	Teams -- "Q&A for Work"	[minlen=2];
-	Teams -- "Stack Overflow for Teams is a private, secure spot for you and
-                            your coworkers to find and share information."	[minlen=3];
-	Teams -- "Learn more";
-	_1171 -- Teams;
-	_1173	[fontcolor=white];
-	_1172 -- _1173;
-	_1172 -- "For developers, by developers";
-	_1172 -- "For businesses, by developers";
-	_1172 -- "Unlock siloed knowledge with Stack Overflow for Teams";
-	_1200	[fontcolor=white];
-	_1172 -- _1200;
-	_1172 -- "Questions are everywhere, answers are on Stack Overflow";
-	_1172 -- "Learn and grow with Stack Overflow";
-	_1172 -- "Looking for a job?";
-	_1173 -- We;
-	_1173 -- "We build products that empower developers and connect them to solutions that enable productivity, growth, and discovery."	[minlen=1];
-	_1174	[fontcolor=white];
-	_1173 -- _1174;
-	We -- "<3"	[minlen=1];
-	We -- "people who code"	[minlen=2];
-	_1174 -- "For developers"	[minlen=1];
-	_1174 -- "For businesses"	[minlen=2];
-	"For developers, by developers" -- "Stack Overflow is an";
-	_1175	[fontcolor=white];
-	"For developers, by developers" -- _1175;
-	"Stack Overflow is an" -- "open community"	[minlen=1];
-	"Stack Overflow is an" -- "for anyone that codes. We help you get answers to your toughest coding questions, share knowledge with your coworkers in private, \
-and find your next dream job."	[minlen=2];
-	_1175 -- "Public Q&A";
-	_1175 -- "Private Q&A";
-	_1175 -- "Browse jobs";
-	"Public Q&A" -- "Get answers to more than 16.5 million questions and give back by sharing your knowledge with others.";
-	"Public Q&A" -- "Browse questions"	[minlen=1];
-	"Get answers to more than 16.5 million questions and give back by sharing your knowledge with others." -- "Sign up";
-	"Get answers to more than 16.5 million questions and give back by sharing your knowledge with others." -- "for an account."	[minlen=1];
-	"Private Q&A" -- "Level up with Stack Overflow while you work. Share knowledge privately with your coworkers using our flagship Q&A engine."	[minlen=1];
-	"Private Q&A" -- "Try for free"	[minlen=2];
-	"Browse jobs" -- "Find the right job through high quality listings and search for roles based on title, technology stack, salary, location, and more."	[minlen=1];
-	"Browse jobs" -- "Find a job"	[minlen=2];
-	"For businesses, by developers" -- "Our mission is to help developers write the script of the future. This means helping you find and hire skilled developers for your \
-business and providing them the tools they need to share knowledge and work effectively."	[minlen=1];
-	_1176	[fontcolor=white];
-	"For businesses, by developers" -- _1176;
-	_1176 -- "Quickly find and share internal knowledge with";
-	_1176 -- "Find the perfect candidate for your growing technical team with";
-	_1176 -- "Accelerate the discovery of your products or services through our";
-	"Quickly find and share internal knowledge with" -- "Private Q&A";
-	"Find the perfect candidate for your growing technical team with" -- "Talent solutions"	[minlen=1];
-	"Accelerate the discovery of your products or services through our" -- "Advertising platform"	[minlen=1];
-	"Unlock siloed knowledge with Stack Overflow for Teams" -- "Learn more";
-	"Unlock siloed knowledge with Stack Overflow for Teams" -- "Wikis, chat messages, or formal documentation for knowledge management aren’t effective. Our question and answer format is a proven \
-approach for accessing the right information in less time."	[minlen=1];
-	_1177	[fontcolor=white];
-	"Unlock siloed knowledge with Stack Overflow for Teams" -- _1177;
-	_1199	[fontcolor=white];
-	"Unlock siloed knowledge with Stack Overflow for Teams" -- _1199;
-	_1177 -- Basic;
-	_1177 -- "MOST USED";
-	_1177 -- Enterprise;
-	Basic -- "Private knowledge base for teams"	[minlen=1];
-	_1178	[fontcolor=white];
-	Basic -- _1178;
-	_1180	[fontcolor=white];
-	Basic -- _1180;
-	_1181	[fontcolor=white];
-	Basic -- _1181;
-	_1182	[fontcolor=white];
-	Basic -- _1182;
-	_1183	[fontcolor=white];
-	Basic -- _1183;
-	Basic -- "Start your free trial"	[minlen=2];
-	_1179	[fontcolor=white];
-	_1178 -- _1179;
-	_1178 -- Monthly;
-	_1179 -- "$6 USD";
-	_1179 -- "per teammate / month";
-	"$6 USD" -- "$7 USD"	[minlen=1];
-	Monthly -- Yearly	[minlen=1];
-	_1180 -- "Free 30 day trial"	[minlen=1];
-	_1181 -- "ChatOps integrations - Slack & Microsoft Teams"	[minlen=1];
-	_1182 -- "Your own private space hosted on stackoverflow.com"	[minlen=1];
-	_1183 -- "Fully searchable archive"	[minlen=1];
-	"MOST USED" -- Business;
-	Business -- "Private knowledge base with SSO and premium features"	[minlen=1];
-	Business -- "$12 USD";
-	_1184	[fontcolor=white];
-	Business -- _1184;
-	_1185	[fontcolor=white];
-	Business -- _1185;
-	_1186	[fontcolor=white];
-	Business -- _1186;
-	_1187	[fontcolor=white];
-	Business -- _1187;
-	_1188	[fontcolor=white];
-	Business -- _1188;
-	_1189	[fontcolor=white];
-	Business -- _1189;
-	_1190	[fontcolor=white];
-	Business -- _1190;
-	Business -- "Get started"	[minlen=2];
-	"$12 USD" -- "per teammate / month";
-	_1184 -- "Long-form knowledge with Articles"	[minlen=1];
-	_1185 -- "Additional integrations — ChatOps, Jira, GitHub & Okta"	[minlen=1];
-	_1186 -- "Group content together into Collections"	[minlen=1];
-	_1187 -- "Single sign-on SSO with SAML"	[minlen=1];
-	_1188 -- "Reporting and analytics"	[minlen=1];
-	_1189 -- "Priority customer support"	[minlen=1];
-	_1190 -- "99.5% uptime"	[minlen=1];
-	Enterprise -- "Standalone knowledge base with enhanced security and flexible hosting"	[minlen=1];
-	Enterprise -- "Custom pricing";
-	_1191	[fontcolor=white];
-	Enterprise -- _1191;
-	_1192	[fontcolor=white];
-	Enterprise -- _1192;
-	_1193	[fontcolor=white];
-	Enterprise -- _1193;
-	_1194	[fontcolor=white];
-	Enterprise -- _1194;
-	_1195	[fontcolor=white];
-	Enterprise -- _1195;
-	_1196	[fontcolor=white];
-	Enterprise -- _1196;
-	_1197	[fontcolor=white];
-	Enterprise -- _1197;
-	_1198	[fontcolor=white];
-	Enterprise -- _1198;
-	Enterprise -- "Request a demo"	[minlen=2];
-	"Custom pricing" -- "Let’s talk about what you need"	[minlen=1];
-	_1191 -- "Premium features of Business plus..."	[minlen=1];
-	_1192 -- "ChatOps, Jira, GitHub & Okta integrations"	[minlen=1];
-	_1193 -- "Unlimited Teams within your instance"	[minlen=1];
-	_1194 -- "Single sign-on with AD or SAML"	[minlen=1];
-	_1195 -- "Flexible hosting options — cloud or on-premises"	[minlen=1];
-	_1196 -- "Robust read and write API"	[minlen=1];
-	_1197 -- "Your own customer success and community building representative"	[minlen=1];
-	_1198 -- "99.5% uptime SLA and priority support"	[minlen=1];
-	_1199 -- Leader	[minlen=1];
-	_1199 -- "Users Love Us"	[minlen=2];
-	_1200 -- "Hire your technical talent";
-	_1200 -- "Reach developers worldwide";
-	"Hire your technical talent" -- "We help expand your technical hiring strategy to promote your employer brand and highlight relevant open roles to our community \
-of over 100 million developers and technologists."	[minlen=1];
-	"Hire your technical talent" -- "Stack Overflow Talent"	[minlen=2];
-	"Reach developers worldwide" -- "Use the world’s largest resource for people who code to help you increase awareness and showcase your product or service across \
-Stack Overflow’s network of Q&A sites."	[minlen=1];
-	"Reach developers worldwide" -- "Stack Overflow Advertising"	[minlen=2];
-	_1201	[fontcolor=white];
-	"Questions are everywhere, answers are on Stack Overflow" -- _1201;
-	_1201 -- "Ask a question";
-	_1201 -- "Tag your question";
-	_1201 -- "Ask a question publicly on 170+ Stack Exchange sites or privately using Stack Overflow for Teams.";
-	"Ask a question" -- "Vote on everything"	[minlen=1];
-	"Ask a question" -- "Answer questions"	[minlen=2];
-	"Tag your question" -- "Accept an answer"	[minlen=1];
-	"Tag your question" -- "Get recognized"	[minlen=2];
-	"Ask a question publicly on 170+ Stack Exchange sites or privately using Stack Overflow for Teams." -- "Upvoting helps exceptional content rise to the top and bring awareness to useful responses."	[minlen=1];
-	"Ask a question publicly on 170+ Stack Exchange sites or privately using Stack Overflow for Teams." -- "Answer a question to share your knowledge with the world or in private with your team."	[minlen=2];
-	"Ask a question publicly on 170+ Stack Exchange sites or privately using Stack Overflow for Teams." -- "Tags help make information searchable and find answers that are important to you."	[minlen=3];
-	"Ask a question publicly on 170+ Stack Exchange sites or privately using Stack Overflow for Teams." -- "Accept the answer which solved your problem to let others benefit from the valuable information."	[minlen=4];
-	"Ask a question publicly on 170+ Stack Exchange sites or privately using Stack Overflow for Teams." -- "Our reputation system rewards both the new & experienced based on contribution and activity."	[minlen=5];
-	"Ask a question publicly on 170+ Stack Exchange sites or privately using Stack Overflow for Teams." -- "Create an account"	[minlen=6];
-	_1202	[fontcolor=white];
-	"Learn and grow with Stack Overflow" -- _1202;
-	_1203	[fontcolor=white];
-	_1202 -- _1203;
-	_1204	[fontcolor=white];
-	_1202 -- _1204;
-	_1203 -- "Write the script of the future";
-	_1203 -- "Support open source";
-	"Write the script of the future" -- "Get your coding questions answered to learn, build, and level up whether you’re beginning with";
-	"Get your coding questions answered to learn, build, and level up whether you’re beginning with" -- JavaScript	[minlen=1];
-	"Get your coding questions answered to learn, build, and level up whether you’re beginning with" -- "or a"	[minlen=2];
-	"Get your coding questions answered to learn, build, and level up whether you’re beginning with" -- React	[minlen=3];
-	"Get your coding questions answered to learn, build, and level up whether you’re beginning with" -- "professional."	[minlen=4];
-	"Support open source" -- "Reach users of your project by following tags, answering newcomer questions, and empowering experts in the community.";
-	"Reach users of your project by following tags, answering newcomer questions, and empowering experts in the community." -- "Read the curl project creator’s story"	[minlen=1];
-	"Reach users of your project by following tags, answering newcomer questions, and empowering experts in the community." -- ".";
-	_1204 -- "Acquire and share knowledge";
-	_1204 -- "Find career opportunities";
-	"Acquire and share knowledge" -- "Answer questions and";
-	"Answer questions and" -- "gain insights"	[minlen=1];
-	"Answer questions and" -- "from an audience of developers using your technology on Stack Overflow."	[minlen=2];
-	"Find career opportunities" -- "Create a profile that shows off your expertise and credentials to help you make your next move. Start your";
-	"Create a profile that shows off your expertise and credentials to help you make your next move. Start your" -- ".";
-	"Create a profile that shows off your expertise and credentials to help you make your next move. Start your" -- "Developer Story"	[minlen=1];
-	_1205	[fontcolor=white];
-	"Looking for a job?" -- _1205;
-	_1206	[fontcolor=white];
-	_1205 -- _1206;
-	_1205 -- "View all jobs"	[minlen=1];
-	_1207	[fontcolor=white];
-	_1206 -- _1207;
-	_1208	[fontcolor=white];
-	_1206 -- _1208;
-	_1207 -- "Browse jobs by technology"	[minlen=1];
-	_1207 -- "Browse jobs by salary"	[minlen=2];
-	_1208 -- "Browse jobs by visa sponsorship"	[minlen=1];
-	_1208 -- "Browse remote-friendly jobs"	[minlen=2];
-	_1210	[fontcolor=white];
-	_1209 -- _1210;
-	_1239	[fontcolor=white];
-	_1209 -- _1239;
-	_1211	[fontcolor=white];
-	_1210 -- _1211;
-	_1213	[fontcolor=white];
-	_1210 -- _1213;
-	_1215	[fontcolor=white];
-	_1210 -- _1215;
-	_1217	[fontcolor=white];
-	_1210 -- _1217;
-	_1220	[fontcolor=white];
-	_1210 -- _1220;
-	_1211 -- "Stack Overflow";
-	_1212	[fontcolor=white];
-	_1211 -- _1212;
-	_1212 -- Jobs;
-	_1212 -- Questions	[minlen=1];
-	_1212 -- "Developer Jobs Directory"	[minlen=2];
-	_1212 -- "Salary Calculator"	[minlen=3];
-	_1212 -- Help	[minlen=4];
-	_1212 -- Mobile	[minlen=5];
-	_1213 -- Products;
-	_1214	[fontcolor=white];
-	_1213 -- _1214;
-	_1214 -- Talent;
-	_1214 -- Advertising;
-	_1214 -- Teams;
-	_1214 -- Enterprise;
-	_1215 -- Company	[minlen=1];
-	_1216	[fontcolor=white];
-	_1215 -- _1216;
-	_1216 -- About;
-	_1216 -- Press	[minlen=1];
-	_1216 -- "Work Here"	[minlen=2];
-	_1216 -- Legal	[minlen=3];
-	_1216 -- "Privacy Policy"	[minlen=4];
-	_1216 -- "Terms of Service"	[minlen=5];
-	_1216 -- "Contact Us"	[minlen=6];
-	_1218	[fontcolor=white];
-	_1217 -- _1218;
-	_1218 -- "Stack Exchange"	[minlen=1];
-	_1219	[fontcolor=white];
-	_1218 -- _1219;
-	_1219 -- Technology	[minlen=1];
-	_1219 -- "Life / Arts"	[minlen=2];
-	_1219 -- "Culture / Recreation"	[minlen=3];
-	_1219 -- Science	[minlen=4];
-	_1219 -- Other	[minlen=5];
-	_1221	[fontcolor=white];
-	_1220 -- _1221;
-	_1222	[fontcolor=white];
-	_1220 -- _1222;
-	_1223	[fontcolor=white];
-	_1220 -- _1223;
-	_1224	[fontcolor=white];
-	_1220 -- _1224;
-	_1225	[fontcolor=white];
-	_1220 -- _1225;
-	_1226	[fontcolor=white];
-	_1220 -- _1226;
-	_1227	[fontcolor=white];
-	_1220 -- _1227;
-	_1228	[fontcolor=white];
-	_1220 -- _1228;
-	_1229	[fontcolor=white];
-	_1220 -- _1229;
-	_1230	[fontcolor=white];
-	_1220 -- _1230;
-	_1231	[fontcolor=white];
-	_1220 -- _1231;
-	_1232	[fontcolor=white];
-	_1220 -- _1232;
-	_1233	[fontcolor=white];
-	_1220 -- _1233;
-	_1234	[fontcolor=white];
-	_1220 -- _1234;
-	_1235	[fontcolor=white];
-	_1220 -- _1235;
-	_1236	[fontcolor=white];
-	_1220 -- _1236;
-	_1237	[fontcolor=white];
-	_1220 -- _1237;
-	_1238	[fontcolor=white];
-	_1220 -- _1238;
-	_1221 -- "Stack Overflow";
-	_1221 -- "Server Fault"	[minlen=1];
-	_1221 -- "Super User"	[minlen=2];
-	_1221 -- "Web Applications"	[minlen=3];
-	_1221 -- "Ask Ubuntu"	[minlen=4];
-	_1221 -- Webmasters	[minlen=5];
-	_1221 -- "Game Development"	[minlen=6];
-	_1222 -- "TeX - LaTeX"	[minlen=1];
-	_1222 -- "Software Engineering"	[minlen=2];
-	_1222 -- "Unix & Linux"	[minlen=3];
-	_1222 -- "Ask Different Apple"	[minlen=4];
-	_1222 -- "WordPress Development"	[minlen=5];
-	_1222 -- "Geographic Information Systems"	[minlen=6];
-	_1222 -- "Electrical Engineering"	[minlen=7];
-	_1223 -- "Android Enthusiasts"	[minlen=1];
-	_1223 -- "Information Security"	[minlen=2];
-	_1223 -- "Database Administrators"	[minlen=3];
-	_1223 -- "Drupal Answers"	[minlen=4];
-	_1223 -- SharePoint	[minlen=5];
-	_1223 -- "User Experience"	[minlen=6];
-	_1223 -- Mathematica	[minlen=7];
-	_1224 -- Salesforce	[minlen=1];
-	_1224 -- "ExpressionEngine® Answers"	[minlen=2];
-	_1224 -- "Stack Overflow em Português"	[minlen=3];
-	_1224 -- Blender	[minlen=4];
-	_1224 -- "Network Engineering"	[minlen=5];
-	_1224 -- Cryptography	[minlen=6];
-	_1224 -- "Code Review"	[minlen=7];
-	_1225 -- Magento	[minlen=1];
-	_1225 -- "Software Recommendations"	[minlen=2];
-	_1225 -- "Signal Processing"	[minlen=3];
-	_1225 -- Emacs	[minlen=4];
-	_1225 -- "Raspberry Pi"	[minlen=5];
-	_1225 -- "Stack Overflow на русском"	[minlen=6];
-	_1225 -- "Code Golf"	[minlen=7];
-	_1226 -- "Stack Overflow en español"	[minlen=1];
-	_1226 -- Ethereum	[minlen=2];
-	_1226 -- "Data Science"	[minlen=3];
-	_1226 -- Arduino	[minlen=4];
-	_1226 -- Bitcoin	[minlen=5];
-	_1226 -- "Software Quality Assurance & Testing"	[minlen=6];
-	_1226 -- "Sound Design"	[minlen=7];
-	_1227 -- "Windows Phone"	[minlen=1];
-	_1227 -- "more 28"	[minlen=2];
-	_1228 -- Photography	[minlen=1];
-	_1228 -- "Science Fiction & Fantasy"	[minlen=2];
-	_1228 -- "Graphic Design"	[minlen=3];
-	_1228 -- "Movies & TV"	[minlen=4];
-	_1228 -- Music:" Practice & Theory"	[minlen=5];
-	_1228 -- Worldbuilding	[minlen=6];
-	_1228 -- "Video Production"	[minlen=7];
-	_1229 -- "Seasoned Advice cooking"	[minlen=1];
-	_1229 -- "Home Improvement"	[minlen=2];
-	_1229 -- "Personal Finance & Money"	[minlen=3];
-	_1229 -- Academia	[minlen=4];
-	_1229 -- Law	[minlen=5];
-	_1229 -- "Physical Fitness"	[minlen=6];
-	_1229 -- "Gardening & Landscaping"	[minlen=7];
-	_1230 -- Parenting	[minlen=1];
-	_1230 -- "more 10";
-	_1231 -- "English Language & Usage"	[minlen=1];
-	_1231 -- Skeptics	[minlen=2];
-	_1231 -- "Mi Yodeya Judaism"	[minlen=3];
-	_1231 -- Travel	[minlen=4];
-	_1231 -- Christianity	[minlen=5];
-	_1231 -- "English Language Learners"	[minlen=6];
-	_1231 -- "Japanese Language"	[minlen=7];
-	_1232 -- "Chinese Language"	[minlen=1];
-	_1232 -- "French Language"	[minlen=2];
-	_1232 -- "German Language"	[minlen=3];
-	_1232 -- "Biblical Hermeneutics"	[minlen=4];
-	_1232 -- History	[minlen=5];
-	_1232 -- "Spanish Language"	[minlen=6];
-	_1232 -- Islam	[minlen=7];
-	_1233 -- "Русский язык"	[minlen=1];
-	_1233 -- "Russian Language"	[minlen=2];
-	_1233 -- "Arqade gaming"	[minlen=3];
-	_1233 -- Bicycles	[minlen=4];
-	_1233 -- "Role-playing Games"	[minlen=5];
-	_1233 -- "Anime & Manga"	[minlen=6];
-	_1233 -- Puzzling	[minlen=7];
-	_1234 -- "Motor Vehicle Maintenance & Repair"	[minlen=1];
-	_1234 -- "Board & Card Games"	[minlen=2];
-	_1234 -- Bricks	[minlen=3];
-	_1234 -- Homebrewing	[minlen=4];
-	_1234 -- "Martial Arts"	[minlen=5];
-	_1234 -- "The Great Outdoors"	[minlen=6];
-	_1234 -- Poker	[minlen=7];
-	_1235 -- Chess	[minlen=1];
-	_1235 -- Sports	[minlen=2];
-	_1235 -- "more 16"	[minlen=3];
-	_1236 -- MathOverflow	[minlen=1];
-	_1236 -- Mathematics	[minlen=2];
-	_1236 -- "Cross Validated stats"	[minlen=3];
-	_1236 -- "Theoretical Computer Science"	[minlen=4];
-	_1236 -- Physics	[minlen=5];
-	_1236 -- Chemistry	[minlen=6];
-	_1236 -- Biology	[minlen=7];
-	_1237 -- "more 10";
-	_1237 -- "Computer Science"	[minlen=1];
-	_1237 -- Philosophy	[minlen=2];
-	_1237 -- Linguistics	[minlen=3];
-	_1237 -- "Psychology & Neuroscience"	[minlen=4];
-	_1237 -- "Computational Science"	[minlen=5];
-	_1238 -- "Meta Stack Exchange"	[minlen=1];
-	_1238 -- "Stack Apps"	[minlen=2];
-	_1238 -- API	[minlen=3];
-	_1238 -- Data	[minlen=4];
-	_1240	[fontcolor=white];
-	_1239 -- _1240;
-	_1239 -- "site design / logo © 2021 Stack Exchange Inc; user contributions licensed under";
-	_1240 -- Blog	[minlen=1];
-	_1240 -- Facebook	[minlen=2];
-	_1240 -- Twitter	[minlen=3];
-	_1240 -- LinkedIn	[minlen=4];
-	_1240 -- Instagram	[minlen=5];
-	"site design / logo © 2021 Stack Exchange Inc; user contributions licensed under" -- ".";
-	"site design / logo © 2021 Stack Exchange Inc; user contributions licensed under" -- "cc by-sa"	[minlen=1];
-	"site design / logo © 2021 Stack Exchange Inc; user contributions licensed under" -- "rev 2021.1.8.38287"	[minlen=2];
+digraph G {
+	graph [page="8.5,11",
+		size=8
+	];
+	node [fillcolor=lightblue2,
+		fontcolor=black,
+		style=filled
+	];
+	subgraph cluster_1 {
+		node [fillcolor=lightblue2,
+			fontcolor=black,
+			style=filled
+		];
+		subgraph cluster_2 {
+			graph [label="Stack Overflow"];
+			node [fillcolor=lightblue2,
+				fontcolor=black,
+				style=filled
+			];
+			subgraph cluster_2 {
+				"Stack Overflow" -> "Stack Overflow for Teams"	[minlen=1];
+				"Stack Overflow" -> Jobs;
+				"Stack Overflow" -> Talent;
+				"Stack Overflow" -> Advertising;
+				"Stack Overflow" -> "About the company"	[minlen=2];
+			}
+			subgraph cluster_3 {
+				graph [label=About];
+				About -> Products;
+				About -> "For Teams"	[minlen=1];
+			}
+			subgraph cluster_5 {
+				subgraph cluster_6 {
+					graph [label="Log in"];
+					"Log in" -> "Sign up";
+				}
+				subgraph cluster_7 {
+					graph [label="current community"];
+					node [fillcolor=lightblue2,
+						fontcolor=black,
+						style=filled
+					];
+					subgraph cluster_9 {
+						subgraph cluster_2 {
+							subgraph cluster_10 {
+								graph [label=help];
+								help -> chat	[minlen=1];
+							}
+							"Stack Overflow" -> help;
+						}
+						head_8	[fillcolor=white,
+							fontcolor=white];
+						head_8 -> "Stack Overflow";
+						head_8 -> "Meta Stack Overflow"	[minlen=1];
+					}
+					subgraph cluster_11 {
+						graph [label="Sign up"];
+						"Sign up" -> "log in"	[minlen=1];
+					}
+					subgraph cluster_12 {
+						graph [label="more stack exchange communities"];
+						"more stack exchange communities" -> "company blog"	[minlen=1];
+					}
+					"current community" -> "Sign up";
+					"current community" -> head_8;
+					"current community" -> "more stack exchange communities";
+				}
+				head_4	[fillcolor=white,
+					fontcolor=white];
+				head_4 -> "Log in";
+				head_4 -> "current community";
+			}
+			"Stack Overflow" -> About;
+			"Stack Overflow" -> head_4;
+		}
+		subgraph cluster_14 {
+			node [fillcolor=lightblue2,
+				fontcolor=black,
+				style=filled
+			];
+			subgraph cluster_16 {
+				subgraph cluster_17 {
+					graph [label=Home];
+					subgraph cluster_2 {
+						"Stack Overflow" -> Tags	[minlen=3];
+						"Stack Overflow" -> Users	[minlen=4];
+						"Stack Overflow" -> Companies	[minlen=5];
+					}
+					subgraph cluster_18 {
+						graph [label="What’s this?"];
+						"What’s this?" -> "Free 30 Day Trial"	[minlen=1];
+					}
+					Home -> "Stack Overflow";
+					Home -> "What’s this?";
+				}
+				head_15	[fillcolor=white,
+					fontcolor=white];
+				head_15 -> Home;
+				head_15 -> "Learn more";
+			}
+			subgraph cluster_20 {
+				node [fillcolor=lightblue2,
+					fontcolor=black,
+					style=filled
+				];
+				subgraph cluster_21 {
+					graph [label="For developers"];
+					"For developers" -> "For businesses"	[minlen=1];
+				}
+				subgraph cluster_22 {
+					graph [label="open community"];
+					node [fillcolor=lightblue2,
+						fontcolor=black,
+						style=filled
+					];
+					subgraph cluster_24 {
+						subgraph cluster_11 {
+							"Sign up" -> "Browse questions"	[minlen=2];
+						}
+						head_23	[fillcolor=white,
+							fontcolor=white];
+						head_23 -> "Sign up";
+						head_23 -> "Try for free"	[minlen=1];
+						head_23 -> "Find a job"	[minlen=2];
+					}
+					"open community" -> head_23;
+				}
+				subgraph cluster_25 {
+					graph [label="Private Q&A"];
+					"Private Q&A" -> "Talent solutions"	[minlen=1];
+					"Private Q&A" -> "Advertising platform"	[minlen=2];
+				}
+				subgraph cluster_26 {
+					graph [label="Learn more"];
+					node [fillcolor=lightblue2,
+						fontcolor=black,
+						style=filled
+					];
+					subgraph cluster_28 {
+						head_27	[fillcolor=white,
+							fontcolor=white];
+						head_27 -> "Start your free trial"	[minlen=1];
+						head_27 -> "Get started"	[minlen=2];
+						head_27 -> "Request a demo"	[minlen=3];
+					}
+					subgraph cluster_29 {
+						graph [label=Leader];
+						Leader -> "Users Love Us"	[minlen=1];
+					}
+					"Learn more" -> head_27;
+					"Learn more" -> Leader;
+				}
+				subgraph cluster_30 {
+					graph [label="Stack Overflow Talent"];
+					"Stack Overflow Talent" -> "Stack Overflow Advertising"	[minlen=1];
+				}
+				subgraph cluster_32 {
+					node [fillcolor=lightblue2,
+						fontcolor=black,
+						style=filled
+					];
+					subgraph cluster_34 {
+						subgraph cluster_35 {
+							graph [label=JavaScript];
+							JavaScript -> React	[minlen=1];
+						}
+						head_33	[fillcolor=white,
+							fontcolor=white];
+						head_33 -> JavaScript;
+						head_33 -> "Read the curl project creator’s story"	[minlen=1];
+					}
+					subgraph cluster_36 {
+						graph [label="gain insights"];
+						"gain insights" -> "Developer Story"	[minlen=1];
+					}
+					head_31	[fillcolor=white,
+						fontcolor=white];
+					head_31 -> head_33;
+					head_31 -> "gain insights";
+				}
+				subgraph cluster_38 {
+					node [fillcolor=lightblue2,
+						fontcolor=black,
+						style=filled
+					];
+					subgraph cluster_40 {
+						subgraph cluster_41 {
+							graph [label="Browse jobs by technology"];
+							"Browse jobs by technology" -> "Browse jobs by salary"	[minlen=1];
+						}
+						subgraph cluster_42 {
+							graph [label="Browse jobs by visa sponsorship"];
+							"Browse jobs by visa sponsorship" -> "Browse remote-friendly jobs"	[minlen=1];
+						}
+						head_39	[fillcolor=white,
+							fontcolor=white];
+						head_39 -> "Browse jobs by technology";
+						head_39 -> "Browse jobs by visa sponsorship";
+					}
+					head_37	[fillcolor=white,
+						fontcolor=white];
+					head_37 -> head_39;
+					head_37 -> "View all jobs"	[minlen=1];
+				}
+				head_19	[fillcolor=white,
+					fontcolor=white];
+				head_19 -> "Learn more";
+				head_19 -> "For developers";
+				head_19 -> "open community";
+				head_19 -> "Private Q&A";
+				head_19 -> "Stack Overflow Talent";
+				head_19 -> "Create an account"	[minlen=1];
+				head_19 -> head_31;
+				head_19 -> head_37;
+			}
+			head_13	[fillcolor=white,
+				fontcolor=white];
+			head_13 -> head_15;
+			head_13 -> head_19;
+		}
+		subgraph cluster_44 {
+			node [fillcolor=lightblue2,
+				fontcolor=black,
+				style=filled
+			];
+			subgraph cluster_46 {
+				node [fillcolor=lightblue2,
+					fontcolor=black,
+					style=filled
+				];
+				subgraph cluster_2 {
+					subgraph cluster_47 {
+						graph [label=Questions];
+						Questions -> Jobs;
+						Questions -> "Developer Jobs Directory"	[minlen=1];
+						Questions -> "Salary Calculator"	[minlen=2];
+						Questions -> Help	[minlen=3];
+					}
+					"Stack Overflow" -> Questions;
+				}
+				subgraph cluster_48 {
+					graph [label=Products];
+					subgraph cluster_49 {
+						graph [label=Teams];
+						Teams -> Talent;
+						Teams -> Advertising;
+						Teams -> Enterprise	[minlen=1];
+					}
+					Products -> Teams;
+				}
+				subgraph cluster_50 {
+					graph [label=Company];
+					subgraph cluster_3 {
+						About -> Press	[minlen=2];
+						About -> "Work Here"	[minlen=3];
+						About -> Legal	[minlen=4];
+						About -> "Privacy Policy"	[minlen=5];
+						About -> "Terms of Service"	[minlen=6];
+						About -> "Contact Us"	[minlen=7];
+					}
+					Company -> About;
+				}
+				subgraph cluster_51 {
+					graph [label="Stack Exchange"];
+					subgraph cluster_52 {
+						graph [label=Technology];
+						Technology -> "Life / Arts"	[minlen=1];
+						Technology -> "Culture / Recreation"	[minlen=2];
+						Technology -> Science	[minlen=3];
+						Technology -> Other	[minlen=4];
+					}
+					"Stack Exchange" -> Technology;
+				}
+				subgraph cluster_54 {
+					subgraph cluster_2 {
+						"Stack Overflow" -> "Server Fault"	[minlen=6];
+						"Stack Overflow" -> "Super User"	[minlen=7];
+						"Stack Overflow" -> "Web Applications"	[minlen=8];
+						"Stack Overflow" -> "Ask Ubuntu"	[minlen=9];
+						"Stack Overflow" -> Webmasters	[minlen=10];
+						"Stack Overflow" -> "Game Development"	[minlen=11];
+					}
+					subgraph cluster_55 {
+						graph [label="TeX - LaTeX"];
+						"TeX - LaTeX" -> "Software Engineering"	[minlen=1];
+						"TeX - LaTeX" -> "Unix & Linux"	[minlen=2];
+						"TeX - LaTeX" -> "Ask Different Apple"	[minlen=3];
+						"TeX - LaTeX" -> "WordPress Development"	[minlen=4];
+						"TeX - LaTeX" -> "Geographic Information Systems"	[minlen=5];
+						"TeX - LaTeX" -> "Electrical Engineering"	[minlen=6];
+					}
+					subgraph cluster_56 {
+						graph [label="Android Enthusiasts"];
+						"Android Enthusiasts" -> "Information Security"	[minlen=1];
+						"Android Enthusiasts" -> "Database Administrators"	[minlen=2];
+						"Android Enthusiasts" -> "Drupal Answers"	[minlen=3];
+						"Android Enthusiasts" -> SharePoint	[minlen=4];
+						"Android Enthusiasts" -> "User Experience"	[minlen=5];
+						"Android Enthusiasts" -> Mathematica	[minlen=6];
+					}
+					subgraph cluster_57 {
+						graph [label=Salesforce];
+						Salesforce -> "ExpressionEngine® Answers"	[minlen=1];
+						Salesforce -> "Stack Overflow em Português"	[minlen=2];
+						Salesforce -> Blender	[minlen=3];
+						Salesforce -> "Network Engineering"	[minlen=4];
+						Salesforce -> Cryptography	[minlen=5];
+						Salesforce -> "Code Review"	[minlen=6];
+					}
+					subgraph cluster_58 {
+						graph [label=Magento];
+						Magento -> "Software Recommendations"	[minlen=1];
+						Magento -> "Signal Processing"	[minlen=2];
+						Magento -> Emacs	[minlen=3];
+						Magento -> "Raspberry Pi"	[minlen=4];
+						Magento -> "Stack Overflow на русском"	[minlen=5];
+						Magento -> "Code Golf"	[minlen=6];
+					}
+					subgraph cluster_59 {
+						graph [label="Stack Overflow en español"];
+						"Stack Overflow en español" -> Ethereum	[minlen=1];
+						"Stack Overflow en español" -> "Data Science"	[minlen=2];
+						"Stack Overflow en español" -> Arduino	[minlen=3];
+						"Stack Overflow en español" -> Bitcoin	[minlen=4];
+						"Stack Overflow en español" -> "Software Quality Assurance & Testing"	[minlen=5];
+						"Stack Overflow en español" -> "Sound Design"	[minlen=6];
+					}
+					subgraph cluster_60 {
+						graph [label="Windows Phone"];
+						"Windows Phone" -> "more 28"	[minlen=1];
+					}
+					subgraph cluster_61 {
+						graph [label=Photography];
+						Photography -> "Science Fiction & Fantasy"	[minlen=1];
+						Photography -> "Graphic Design"	[minlen=2];
+						Photography -> "Movies & TV"	[minlen=3];
+						Photography -> Music:" Practice & Theory"	[minlen=4];
+						Photography -> Worldbuilding	[minlen=5];
+						Photography -> "Video Production"	[minlen=6];
+					}
+					subgraph cluster_62 {
+						graph [label="Seasoned Advice (cooking)"];
+						"Seasoned Advice cooking" -> "Home Improvement"	[minlen=1];
+						"Seasoned Advice cooking" -> "Personal Finance & Money"	[minlen=2];
+						"Seasoned Advice cooking" -> Academia	[minlen=3];
+						"Seasoned Advice cooking" -> Law	[minlen=4];
+						"Seasoned Advice cooking" -> "Physical Fitness"	[minlen=5];
+						"Seasoned Advice cooking" -> "Gardening & Landscaping"	[minlen=6];
+					}
+					subgraph cluster_63 {
+						graph [label=Parenting];
+						Parenting -> "more 10";
+					}
+					subgraph cluster_64 {
+						graph [label="English Language & Usage"];
+						"English Language & Usage" -> Skeptics	[minlen=1];
+						"English Language & Usage" -> "Mi Yodeya Judaism"	[minlen=2];
+						"English Language & Usage" -> Travel	[minlen=3];
+						"English Language & Usage" -> Christianity	[minlen=4];
+						"English Language & Usage" -> "English Language Learners"	[minlen=5];
+						"English Language & Usage" -> "Japanese Language"	[minlen=6];
+					}
+					subgraph cluster_65 {
+						graph [label="Chinese Language"];
+						"Chinese Language" -> "French Language"	[minlen=1];
+						"Chinese Language" -> "German Language"	[minlen=2];
+						"Chinese Language" -> "Biblical Hermeneutics"	[minlen=3];
+						"Chinese Language" -> History	[minlen=4];
+						"Chinese Language" -> "Spanish Language"	[minlen=5];
+						"Chinese Language" -> Islam	[minlen=6];
+					}
+					subgraph cluster_66 {
+						graph [label="Русский язык"];
+						"Русский язык" -> "Russian Language"	[minlen=1];
+						"Русский язык" -> "Arqade gaming"	[minlen=2];
+						"Русский язык" -> Bicycles	[minlen=3];
+						"Русский язык" -> "Role-playing Games"	[minlen=4];
+						"Русский язык" -> "Anime & Manga"	[minlen=5];
+						"Русский язык" -> Puzzling	[minlen=6];
+					}
+					subgraph cluster_67 {
+						graph [label="Motor Vehicle Maintenance & Repair"];
+						"Motor Vehicle Maintenance & Repair" -> "Board & Card Games"	[minlen=1];
+						"Motor Vehicle Maintenance & Repair" -> Bricks	[minlen=2];
+						"Motor Vehicle Maintenance & Repair" -> Homebrewing	[minlen=3];
+						"Motor Vehicle Maintenance & Repair" -> "Martial Arts"	[minlen=4];
+						"Motor Vehicle Maintenance & Repair" -> "The Great Outdoors"	[minlen=5];
+						"Motor Vehicle Maintenance & Repair" -> Poker	[minlen=6];
+					}
+					subgraph cluster_68 {
+						graph [label=Chess];
+						Chess -> Sports	[minlen=1];
+						Chess -> "more 16"	[minlen=2];
+					}
+					subgraph cluster_69 {
+						graph [label=MathOverflow];
+						MathOverflow -> Mathematics	[minlen=1];
+						MathOverflow -> "Cross Validated stats"	[minlen=2];
+						MathOverflow -> "Theoretical Computer Science"	[minlen=3];
+						MathOverflow -> Physics	[minlen=4];
+						MathOverflow -> Chemistry	[minlen=5];
+						MathOverflow -> Biology	[minlen=6];
+					}
+					subgraph cluster_70 {
+						graph [label="Computer Science"];
+						"Computer Science" -> "more 10";
+						"Computer Science" -> Philosophy	[minlen=1];
+						"Computer Science" -> Linguistics	[minlen=2];
+						"Computer Science" -> "Psychology & Neuroscience"	[minlen=3];
+						"Computer Science" -> "Computational Science"	[minlen=4];
+					}
+					subgraph cluster_71 {
+						graph [label="Meta Stack Exchange"];
+						"Meta Stack Exchange" -> "Stack Apps"	[minlen=1];
+						"Meta Stack Exchange" -> API	[minlen=2];
+						"Meta Stack Exchange" -> Data	[minlen=3];
+					}
+					head_53	[fillcolor=white,
+						fontcolor=white];
+					head_53 -> "Stack Overflow";
+					head_53 -> "TeX - LaTeX";
+					head_53 -> "Android Enthusiasts";
+					head_53 -> Salesforce;
+					head_53 -> Magento;
+					head_53 -> "Stack Overflow en español";
+					head_53 -> "Windows Phone";
+					head_53 -> Photography;
+					head_53 -> "Seasoned Advice cooking";
+					head_53 -> Parenting;
+					head_53 -> "English Language & Usage";
+					head_53 -> "Chinese Language";
+					head_53 -> "Русский язык";
+					head_53 -> "Motor Vehicle Maintenance & Repair";
+					head_53 -> Chess;
+					head_53 -> MathOverflow;
+					head_53 -> "Computer Science";
+					head_53 -> "Meta Stack Exchange";
+				}
+				head_45	[fillcolor=white,
+					fontcolor=white];
+				head_45 -> "Stack Overflow";
+				head_45 -> Products;
+				head_45 -> Company;
+				head_45 -> "Stack Exchange";
+				head_45 -> head_53;
+			}
+			subgraph cluster_73 {
+				subgraph cluster_74 {
+					graph [label=Blog];
+					Blog -> Facebook	[minlen=1];
+					Blog -> Twitter	[minlen=2];
+					Blog -> LinkedIn	[minlen=3];
+					Blog -> Instagram	[minlen=4];
+				}
+				head_72	[fillcolor=white,
+					fontcolor=white];
+				head_72 -> Blog;
+				head_72 -> "cc by-sa"	[minlen=1];
+			}
+			head_43	[fillcolor=white,
+				fontcolor=white];
+			head_43 -> head_45;
+			head_43 -> head_72;
+		}
+		head_0	[fillcolor=white,
+			fontcolor=white];
+		head_0 -> "Stack Overflow";
+		head_0 -> head_13;
+		head_0 -> head_43;
+	}
+	""	[fillcolor=white,
+		fontcolor=white];
+	"" -> head_0	[minlen=1];
 }

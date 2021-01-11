@@ -1,34 +1,42 @@
-graph G {
-	graph [size=8];
-	node [fontcolor=black];
-	"" -- html	[minlen=1];
-	html -- "Мобильная версия ВКонтакте | ВКонтакте";
-	_876	[fontcolor=white];
-	"Мобильная версия ВКонтакте | ВКонтакте" -- _876;
-	_877	[fontcolor=white];
-	_876 -- _877;
-	_878	[fontcolor=white];
-	_877 -- _878;
-	_880	[fontcolor=white];
-	_877 -- _880;
-	_882	[fontcolor=white];
-	_877 -- _882;
-	_879	[fontcolor=white];
-	_878 -- _879	[minlen=1];
-	_880 -- "Установить приложение"	[minlen=1];
-	_880 -- "Мобильная версия поможет вам оставаться ВКонтакте, даже если вы далеко \
-от компьютера.";
-	_881	[fontcolor=white];
-	"Мобильная версия поможет вам оставаться ВКонтакте, даже если вы далеко \
-от компьютера." -- _881;
-	_881 -- "Забыли пароль?"	[minlen=1];
-	_881 -- "Впервые ВКонтакте?"	[minlen=2];
-	_881 -- Зарегистрироваться	[minlen=3];
-	_881 -- "Войти через Facebook"	[minlen=4];
-	_883	[fontcolor=white];
-	_882 -- _883;
-	_882 -- "Версия для компьютера"	[minlen=1];
-	_883 -- Українська	[minlen=1];
-	_883 -- English	[minlen=2];
-	_883 -- "all languages »"	[minlen=3];
+digraph G {
+	graph [page="8.5,11",
+		size=8
+	];
+	node [fillcolor=lightblue2,
+		fontcolor=black,
+		style=filled
+	];
+	subgraph cluster_1 {
+		node [fillcolor=lightblue2,
+			fontcolor=black,
+			style=filled
+		];
+		subgraph cluster_2 {
+			graph [label="Установить приложение"];
+			subgraph cluster_3 {
+				graph [label="Забыли пароль?"];
+				"Забыли пароль?" -> Зарегистрироваться	[minlen=1];
+				"Забыли пароль?" -> "Войти через Facebook"	[minlen=2];
+			}
+			"Установить приложение" -> "Забыли пароль?";
+		}
+		subgraph cluster_5 {
+			subgraph cluster_6 {
+				graph [label=Українська];
+				Українська -> English	[minlen=1];
+				Українська -> "all languages »"	[minlen=2];
+			}
+			head_4	[fillcolor=white,
+				fontcolor=white];
+			head_4 -> Українська;
+			head_4 -> "Версия для компьютера"	[minlen=1];
+		}
+		head_0	[fillcolor=white,
+			fontcolor=white];
+		head_0 -> "Установить приложение";
+		head_0 -> head_4;
+	}
+	""	[fillcolor=white,
+		fontcolor=white];
+	"" -> head_0	[minlen=1];
 }
