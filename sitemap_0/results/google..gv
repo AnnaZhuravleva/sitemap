@@ -1,0 +1,69 @@
+digraph G {
+	graph [page="8.5,11",
+		size=8
+	];
+	node [fillcolor=lightblue2,
+		fontcolor=black,
+		style=filled
+	];
+	subgraph cluster_1 {
+		node [fillcolor=lightblue2,
+			fontcolor=black,
+			style=filled
+		];
+		subgraph cluster_3 {
+			subgraph cluster_4 {
+				graph [label=Картинки];
+				Картинки -> Карты	[minlen=1];
+				Картинки -> Play	[minlen=2];
+				Картинки -> YouTube	[minlen=3];
+				Картинки -> Новости	[minlen=4];
+				Картинки -> Почта	[minlen=5];
+				Картинки -> Диск	[minlen=6];
+				Картинки -> Ещё	[minlen=7];
+			}
+			subgraph cluster_5 {
+				graph [label="История веб-поиска"];
+				"История веб-поиска" -> Настройки	[minlen=1];
+				"История веб-поиска" -> Войти	[minlen=2];
+			}
+			head_2	[fillcolor=white,
+				fontcolor=white];
+			head_2 -> Картинки;
+			head_2 -> "История веб-поиска";
+		}
+		subgraph cluster_7 {
+			node [fillcolor=lightblue2,
+				fontcolor=black,
+				style=filled
+			];
+			subgraph cluster_9 {
+				subgraph cluster_10 {
+					graph [label="Рекламные программы"];
+					"Рекламные программы" -> "Решения для бизнеса"	[minlen=1];
+					"Рекламные программы" -> "Всё о Google"	[minlen=2];
+					"Рекламные программы" -> "Google.ru"	[minlen=3];
+				}
+				subgraph cluster_11 {
+					graph [label=Конфиденциальность];
+					Конфиденциальность -> Условия	[minlen=1];
+				}
+				head_8	[fillcolor=white,
+					fontcolor=white];
+				head_8 -> "Рекламные программы";
+				head_8 -> Конфиденциальность;
+			}
+			head_6	[fillcolor=white,
+				fontcolor=white];
+			head_6 -> "Расширенный поиск"	[minlen=1];
+			head_6 -> head_8;
+		}
+		head_0	[fillcolor=white,
+			fontcolor=white];
+		head_0 -> head_2;
+		head_0 -> head_6;
+	}
+	""	[fillcolor=white,
+		fontcolor=white];
+	"" -> head_0	[minlen=1];
+}
