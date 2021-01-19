@@ -25,5 +25,4 @@ if __name__ == '__main__':
     rec_depth = 1
     site = sitemap.SiteMap(url)
     site.recursion(rec_depth)
-    site.get_graph()
 ```
